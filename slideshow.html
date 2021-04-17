@@ -5,7 +5,11 @@ Exercise 2: Slideshow
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <script type="text/javascript">
+      <title>Slideshow</title>
+   </head>
+   
+   <script type="text/javascript">
+      var i;
       var index=1;
       slideshow(index);
       
@@ -25,12 +29,11 @@ Exercise 2: Slideshow
          else if(n < 1){
             index = pics.length;
          }
-         pics[index].display = "block";
-         
+         for(i=0; i<slides.length; i++){
+            pics[i].display = "none"
+         pics[index-1].display = "block";
       }
-      </script>
-      <title>Slideshow</title>
-   </head>
+   </script>
   
    <style>
      .button1{
