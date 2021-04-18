@@ -1,1 +1,26 @@
+p
+{
+  color: red;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
+  background-color: white;
+  background-blend-mode: overlay;
+  
+}
 
+p.title
+{
+  color: red;
+  font-family: "Brush Script MT", cursive;
+  font-size: 10vw;
+  background-color: white;
+  background-blend-mode: overlay;
+}
+
+body
+{
+  background-image: url(https://media4.giphy.com/media/l1KulDCUYbZJLbrIQ/giphy.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
