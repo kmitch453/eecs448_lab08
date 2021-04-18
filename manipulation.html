@@ -7,9 +7,22 @@ Exercise 4: CSS Manipulation
    <head>
       <title>Manipulation</title>
       <script type="text/javascript">
-         var poem = document.getElementById("sonnet")
-         
-         
+         var poem = document.getElementById("sonnet");
+         styleChange(){
+            var rbord = document.getElementById("redBord");
+            var bbord = document.getElementById("blueBord");
+            var gbord = document.getElementById("greenBord");
+            var width = document.getElementById("widBord");
+            
+            poem.style.borderColor= "rgb(rbord, bbord, gbord)";
+            poem.style.borderWidth= width;
+            
+            var rback = document.getElementById("redBack");
+            var bback = document.getElementById("blueBack");
+            var gback = document.getElementById("greenBack");
+            
+            poem.style.backgroundColor= "rgb(rback, bback, gback)";
+         }
       </script>
       <style>
          pre{
@@ -56,7 +69,7 @@ Exercise 4: CSS Manipulation
     <input type="number" id="blueBack" name="blueBack" min="0" max="255"><br>
     <label for="greenBack">green (0-255):</label>
     <input type="number" id="greenBack" name="greenBack" min="0" max="255"><br>
-    <button onclick="">Change</button>
+    <button onclick="styleChange()">Change</button>
    
    </body>
 </html>
