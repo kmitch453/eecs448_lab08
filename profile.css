@@ -21,8 +21,9 @@ body
 {
   background-image: url(post_giphy_malone.gif);
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
+  background-position: top;
 }
 
 a
