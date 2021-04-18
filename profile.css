@@ -4,17 +4,17 @@ p
   font-family: "Brush Script MT", cursive;
   font-size: 30px;
   background-color: white;
-  background-blend-mode: overlay;
+  background-blend-mode: lighten;
   
 }
 
-p.title
+h
 {
   color: red;
   font-family: "Brush Script MT", cursive;
   font-size: 10vw;
   background-color: white;
-  background-blend-mode: overlay;
+  background-blend-mode: lighten;
 }
 
 body
@@ -23,4 +23,18 @@ body
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+a
+{
+  color: red;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
+  background-color: white;
+  background-blend-mode: lighten;
+}
+
+a:hover
+{
+  color: yellow;
 }
