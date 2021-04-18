@@ -4,7 +4,7 @@ p
   font-family: "Brush Script MT", cursive;
   font-size: 30px;
   background-color: white;
-  background-blend-mode: lighten;
+  background-blend-mode: screen;
   
 }
 
@@ -14,7 +14,7 @@ h
   font-family: "Brush Script MT", cursive;
   font-size: 10vw;
   background-color: white;
-  background-blend-mode: lighten;
+  background-blend-mode: screen;
 }
 
 body
@@ -32,7 +32,7 @@ a
   font-family: "Brush Script MT", cursive;
   font-size: 30px;
   background-color: white;
-  background-blend-mode: lighten;
+  background-blend-mode: screen;
 }
 
 a:hover
