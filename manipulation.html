@@ -7,22 +7,8 @@ Exercise 4: CSS Manipulation
    <head>
       <title>Manipulation</title>
       <script type="text/javascript">
-         #var poem = document.getElementById("sonnet");
-         styleChange(){
-//             #var rbord = document.getElementById("redBord");
-//             #var bbord = document.getElementById("blueBord");
-//             #var gbord = document.getElementById("greenBord");
-//             #var wbord = document.getElementById("widBord");
-//             #var width = string(wbord + "px");
-            
-            
-//             #document.body.style.borderColor= rgb(rbord, bbord, gbord);
-//             #document.body.style.borderWidth= width;
-            
-//             var rback = document.getElementById("redBack");
-//             var bback = document.getElementById("blueBack");
-//             var gback = document.getElementById("greenBack");
-            
+         var poem = document.getElementById("sonnet");
+         styleChange(){           
             document.body.style.backgroundColor= "red";
          }
       </script>
@@ -54,23 +40,7 @@ Exercise 4: CSS Manipulation
       <i>~William Shakespeare</i>
       </pre>
     </p>
-    For Border:<br>
-    <label for="redBord">red (0-255):</label>
-    <input type="number" id="redBord" name="redBord" min="0" max="255"><br>
-    <label for="blueBord">blue (0-255):</label>
-    <input type="number" id="blueBord" name="blueBord" min="0" max="255"><br>
-    <label for="greenBord">green (0-255):</label>
-    <input type="number" id="greenBord" name="greenBord" min="0" max="255"><br>
-    <label for="widBord">width (in px):</label>
-    <input type="number" id="widBord" name="widBord" min="1" max="20"><br>
-    <br>
-    For Background:<br>
-    <label for="redBack">red (0-255):</label>
-    <input type="number" id="redBack" name="redBack" min="0" max="255"><br>
-    <label for="blueBack">blue (0-255):</label>
-    <input type="number" id="blueBack" name="blueBack" min="0" max="255"><br>
-    <label for="greenBack">green (0-255):</label>
-    <input type="number" id="greenBack" name="greenBack" min="0" max="255"><br>
+
     <button onclick="styleChange()">Change</button>
    
    </body>
