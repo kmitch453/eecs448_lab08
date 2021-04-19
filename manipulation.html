@@ -7,9 +7,15 @@ Exercise 4: CSS Manipulation
    <head>
       <title>Manipulation</title>
       <script type="text/javascript">
-         function styleChange(){
-            var poem = document.getElementById("sonnet");
+         var poem = document.getElementById("sonnet");
+         function red(){
             poem.style.backgroundColor= "red";
+         }
+         function blue(){
+            poem.style.backgroundColor= "blue";
+         }
+         function green(){
+            poem.style.backgroundColor= "green";
          }
       </script>
       <style>
@@ -41,7 +47,9 @@ Exercise 4: CSS Manipulation
       </pre>
     </p>
 
-    <button onclick="styleChange()">Change</button>
+    <button onclick="red()">RED</button><br>
+    <button onclick="blue()">BLUE</button><br>
+    <button onclick="green()">GREEN</button><br>
    
    </body>
 </html>
